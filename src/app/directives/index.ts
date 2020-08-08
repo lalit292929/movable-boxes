@@ -1,0 +1,1 @@
+export * from './event-handler/event-handler.directive';

@@ -1,0 +1,29 @@
+.fix-container{
+    height: 450px;
+    width: 1050px;
+    position: absolute;
+    background-color: #ffffff;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 5px 5px #00000029;
+    opacity: 1;
+}
+
+.movable-box{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #6DE8D0 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 2px #00000029;
+    border: 1px solid #6DE8D0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.selected-box{
+    background: #379B88 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 2px #00000029;
+    border: 1px solid #379B88;
+}

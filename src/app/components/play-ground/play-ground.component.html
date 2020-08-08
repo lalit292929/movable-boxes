@@ -1,0 +1,5 @@
+<div class="fix-container">
+    <div *ngFor='let boxInfo of (boxesData$ | async)' class="movable-box" appEventHandler [boxInfo]="boxInfo">
+        B: {{boxInfo?.zIndex}}
+    </div>
+</div>

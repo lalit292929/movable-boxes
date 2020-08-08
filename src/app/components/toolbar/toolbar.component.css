@@ -1,0 +1,10 @@
+.toolbar{
+    width: 1050px;
+    height: 50px;
+    background: #F1F9FF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 5px #00000029;
+    opacity: 1;
+    padding: 6px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}

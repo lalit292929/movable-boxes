@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    background-color: #C8EBFA;
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    background-color: #52a6ca;
+}
